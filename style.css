@@ -499,9 +499,18 @@ ul {
     footer {
         display: flex;
         flex-direction: column;
-        height: 25vh;
+        height: 100%;
         width: 100%;
         margin: 0;
+    }
+    .foot-img {
+        height: 40px;
+        width: 90px;
+        margin-bottom: -20;
+    }
+    ul {
+        margin: 0 auto;
+        text-align: center;
     }
     .interaction {
         display: none;
@@ -520,5 +529,17 @@ ul {
     }
     .imagem__2 {
         display: none;
+    }
+}
+@media (max-width: 668px) {
+    footer {
+        height: 100%;
+        width: 100%;
+    }
+    .foot-img {
+        margin-top: 2rem;
+    }
+    ul {
+        margin-top: 1rem;
     }
 }
